@@ -3,7 +3,7 @@
 3.Colors
 4.Css
 <ul>
-  <li>Formatting</li>
+  <li style='color:red'>Formatting</li>
   <li>Comments</li>
   <li>Css</li>
 </ul>
