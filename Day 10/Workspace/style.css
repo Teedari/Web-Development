@@ -1,0 +1,70 @@
+* {
+  
+  box-sizing: border-box;
+}
+
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  background: #eee;
+  font-family: sans-serif;
+
+}
+
+header{
+  padding: 1.2em;
+  background: #00efff;
+ 
+}
+
+main{
+  background: #fff;
+  margin-top: 1em;
+  padding: 1.2em;
+
+}
+
+/** UTILITIES **/
+
+.rounded{
+  border-radius: .4rem;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.container{
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 1em; /** this is not a good practice**/
+  padding: 0 1em;
+}
+
+
+.main-h3{
+  color: tomato;
+  font-weight: 800;
+}
+
+
+
+.card{
+  background: #00efff;
+  padding: .8em 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  float: left;
+  width: calc(50% - 1em);
+  min-height: 12rem;
+}
+
+
+
+.card-count{
+  background: #55dfe9ef;
+  padding: 1em;
+  display: inline-block;
+
+}
