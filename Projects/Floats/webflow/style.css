@@ -1,0 +1,118 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  box-sizing: inherit;
+  font-family: sans-serif;
+  
+}
+ul{
+  list-style: none;
+}
+.bg-primary{
+  background: #000000;
+  color: white;
+}
+
+.bg-secondary{
+  background: #161616;
+  color: white;
+}
+
+.text-gray{
+  color: #cccc;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.clearfix{
+  clear: both;
+}
+header{
+  height: 50px;
+  line-height: 50px;
+}
+
+nav{
+  color: white;
+}
+nav .logo{
+  padding-right: .7em;
+}
+
+nav .logo span{
+  font-weight: 100;
+  color: rgb(218, 218, 6);
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar{
+  display: flex;
+}
+
+.navbar ul li{
+  display: inline;
+}
+
+.try-button{
+  padding: .8em 1.2em;
+  border: 0;
+}
+
+.hero{
+  padding: 10em 0 5em 0;
+  width: 50%;
+}
+
+.hero h1{
+  padding-bottom: 1em;
+}
+
+.hero p{
+
+}
+.heading{
+  padding: 4em 0 1.2em 0;
+}
+main .card{
+  width: calc(calc(100% / 4)  - 10px);
+  padding: 2em 3em;
+  margin-left: 10px;
+  float: left;
+}
+main .card *{
+  margin-bottom: 1em;
+}
+.card small{
+  text-transform: uppercase;
+  display: block;
+}
+
+.card a{
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+  display: block;
+}
+.trending{
+  margin-bottom: 2em;
+}
+.trending .card{
+  padding: 1.4em 1.8em;
+  float: left;
+  width: calc(100%/4);
+  border-left: 10px solid white;
+}
