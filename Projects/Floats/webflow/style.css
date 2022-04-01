@@ -109,6 +109,14 @@ main .card *{
 }
 .trending{
   margin-bottom: 2em;
+  background: #ccc;
+  padding: 2rem 0;
+}
+
+.trending::after{
+  content: '';
+  display: block;
+  clear: both;
 }
 .trending .card{
   padding: 1.4em 1.8em;
