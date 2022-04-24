@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMS</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    box-sizing: inherit;
+    font-family: sans-serif;
+    /** center an object **/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 90vh;
+
+  }
+
+  form{
+    background: #333;
+    border-radius: 15px;
+    padding: 2em;
+  }
+
+  form .form-group{
+    display: flex;
+    flex-flow: column;
+    padding: .5em 0 0 0;
+  }
+  form .form-group label{
+    color: #f4f4f4;
+  }
+
+  form .form-group input,
+  form .form-group select
+  {
+    padding: .7em .5em;
+  }
+
+
+  form button{
+    margin-top: .5em;
+    padding: .7em .8em;
+    background: rgb(124, 124, 255);
+    border: 0;
+    width: 100%;
+    border-radius: .4rem;
+  }
+
+</style>
+<body>
+  <form>
+    <div class="form-group">
+      <label for="">Firstname</label>
+      <input required placeholder="Enter you first name here" type="text" />
+    </div>
+    <div class="form-group">
+      <label for="">Lastname</label>
+      <input placeholder="Enter your surname here.." type="text" />
+    </div>
+    </div>
+    <div class="form-group">
+      <label for="">Username</label>
+      <input value="tulasi" required placeholder="Enter your username" type="text" />
+    </div>
+    <div class="form-group">
+      <label for="">Email</label>
+      <input placeholder="Eg. ***@gmail.com" type="email" />
+    </div>
+    <div class="form-group">
+      <label for="">Phone number</label>
+      <input required type="number" placeholder="Enter your phone number" />
+    </div>
+    <div class="form-group">
+      <label for="">List Of Programs</label>
+      <select required>
+        <option value="">Choose your program</option>
+        <option>Computer science</option>
+        <option>Information Technology</option>
+        <option>Bio Chemisty</option>
+        <option>Acturial Science</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="">Gender</label>
+      <p>
+        Female <input name="gender" type="radio" />
+        Male <input name="gender" type="radio" />
+      </p>
+    </div>
+    <div class="form-group">
+      <label for="">
+        <input type="checkbox"> Remember me!!
+      </label>
+    </div>
+    <div class="form-group">
+      <label for="">DOB</label>
+      <input type="date" name="" id="">
+    </div>
+    <div class="form-group">
+      <label for="">Uploda profile picture</label>
+      <input type="file" name="" id="">
+    </div>
+    <div class="form-group">
+      <label for="">Password</label>
+      <input type="password" name="" id="">
+    </div>
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>

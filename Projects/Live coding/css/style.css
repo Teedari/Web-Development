@@ -154,7 +154,7 @@ h1, h2{
   display: flex;
   gap: 1em;
   width: 100%;
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px); 
   /* place-items: center; */
   align-items: center;
   justify-content: center;
